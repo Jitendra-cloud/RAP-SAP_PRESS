@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>ZJS_RAP_UNMANAGED_SAVE</CTEXT>
+    <CTEXT>Demo objects for practice from SAP_Press Book</CTEXT>
    </DEVC>
   </asx:values>
  </asx:abap>

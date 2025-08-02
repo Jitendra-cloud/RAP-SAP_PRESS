@@ -4,10 +4,8 @@
   <asx:values>
    <DD02V>
     <TABNAME>ZRAP_A_PO_MAT</TABNAME>
-    <DDLANGUAGE>D</DDLANGUAGE>
     <TABCLASS>TRANSP</TABCLASS>
     <CLIDEP>X</CLIDEP>
-    <DDTEXT>Gültige Materialien für Schnellerfassung</DDTEXT>
     <MASTERLANG>D</MASTERLANG>
     <CONTFLAG>A</CONTFLAG>
     <EXCLASS>1</EXCLASS>
@@ -80,6 +78,21 @@
      <COMPTYPE>E</COMPTYPE>
     </DD03P>
    </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gültige Materialien für Schnellerfassung</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+   <TABL_EXTRAS>
+    <TDDAT>
+     <TABNAME>ZRAP_A_PO_MAT</TABNAME>
+     <CCLASS>CUS_DEV_SUP_DA</CCLASS>
+    </TDDAT>
+   </TABL_EXTRAS>
   </asx:values>
  </asx:abap>
 </abapGit>

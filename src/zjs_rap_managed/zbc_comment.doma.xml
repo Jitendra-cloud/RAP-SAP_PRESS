@@ -4,14 +4,21 @@
   <asx:values>
    <DD01V>
     <DOMNAME>ZBC_COMMENT</DOMNAME>
-    <DDLANGUAGE>D</DDLANGUAGE>
     <DATATYPE>CHAR</DATATYPE>
     <LENG>000050</LENG>
     <OUTPUTLEN>000050</OUTPUTLEN>
     <LOWERCASE>X</LOWERCASE>
-    <DDTEXT>Kommentar</DDTEXT>
     <DOMMASTER>D</DOMMASTER>
    </DD01V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kommentar</DDTEXT>
+    </item>
+   </DD01_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

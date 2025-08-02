@@ -4,11 +4,11 @@
   <asx:values>
    <DD02V>
     <TABNAME>ZBCD_CERTI_STATE</TABNAME>
-    <DDLANGUAGE>D</DDLANGUAGE>
+    <DDLANGUAGE>E</DDLANGUAGE>
     <TABCLASS>TRANSP</TABCLASS>
     <CLIDEP>X</CLIDEP>
     <LANGDEP>X</LANGDEP>
-    <DDTEXT>Entwurdftabelle für Entität ZBCA_Certi_state</DDTEXT>
+    <DDTEXT>Entwurfstabelle für Entität ZI_CERTIFICATESTATE</DDTEXT>
     <MASTERLANG>D</MASTERLANG>
     <CONTFLAG>A</CONTFLAG>
     <EXCLASS>4</EXCLASS>
@@ -95,20 +95,26 @@
      <ADMINFIELD>0</ADMINFIELD>
      <PRECFIELD>SYCH_BDL_DRAFT_ADMIN_INC</PRECFIELD>
      <MASK>      S</MASK>
-     <DDTEXT>Standard-Include für Draft-Verwaltung (BDL Syntax Check)</DDTEXT>
+     <DDTEXT>Standard Include for Draft Administration (BDL Syntax Check)</DDTEXT>
      <COMPTYPE>S</COMPTYPE>
      <GROUPNAME>%ADMIN</GROUPNAME>
     </DD03P>
    </DD03P_TABLE>
    <I18N_LANGS>
-    <LANGU>E</LANGU>
+    <LANGU>D</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
-     <DDLANGUAGE>E</DDLANGUAGE>
-     <DDTEXT>Entwurfstabelle für Entität ZI_CERTIFICATESTATE</DDTEXT>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Entwurdftabelle für Entität ZBCA_Certi_state</DDTEXT>
     </item>
    </DD02_TEXTS>
+   <TABL_EXTRAS>
+    <TDDAT>
+     <TABNAME>ZBCD_CERTI_STATE</TABNAME>
+     <CCLASS>CUS_DEV_SUP_DA</CCLASS>
+    </TDDAT>
+   </TABL_EXTRAS>
   </asx:values>
  </asx:abap>
 </abapGit>
